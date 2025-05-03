@@ -3,6 +3,6 @@
     height: 250px;
 }
 
-* { 
+.body { 
     background-image: linear-gradient(to bottom, #000000, #301934);
 }

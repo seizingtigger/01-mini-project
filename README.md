@@ -1,4 +1,4 @@
-# <Ty the IT Guy Landing Page>
+#Ty the IT Guy Landing Page
 
 ## Description
 

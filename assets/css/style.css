@@ -4,15 +4,31 @@
     font-family: 'Georgia', serif, sans-serif;
     font-weight:bolder;
 }
-
+html {
+  scroll-padding-top: 150px;
+}
+.header {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    position: sticky;
+    width: 100%;
+    z-index: 1;
+    height: 100px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .logo-resize {
-    height: 18%;
-    display:block;
+    display:inline;
     margin-left: auto;
     margin-right: auto;
-    position: fixed;
-    top: 5px;
+}
 
+.landing {
+  scroll-padding-top: 200px;
 }
 
 .landing-contact-header {
@@ -32,11 +48,8 @@
 
 .topnav {
     overflow: hidden;
-    display: block;
+    display: inline;
     margin: auto;
-    position: fixed;
-    top: 50px;
-    left: 75%;
   }
 
 
@@ -104,7 +117,7 @@ input[type=submit]:hover {
 }
 
 .background {
-    background-image: linear-gradient(#000000, #29002e);
+    background-image: linear-gradient(#000000, #6c007a);
     background-size: cover;
 }
 
